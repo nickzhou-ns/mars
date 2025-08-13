@@ -13,7 +13,7 @@ $the_page = 1;
     <meta name="keywords" content="">
 
     <!-- title -->
-    <title>Visarx - Immigration and Visa Consulting HTML5 Template</title>
+    <title>123</title>
 
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="assets/img/logo/favicon.png">
@@ -291,43 +291,15 @@ $the_page = 1;
     </div>
     <!-- sidebar-popup end -->
 
-
     <main class="main">
 
-        <?php 
-        include 'inc/index/inc_index_hero_area.php'; 
-        include 'inc/index/inc_index_about_area.php'; 
+        <?php
+        include 'inc/index/inc_index_hero_area.php';
+        include 'inc/index/inc_index_about_area.php';
         include 'inc/index/inc_index_skill_area.php';
+        include 'inc/index/inc_index_partner_area.php';
+        include 'inc/index/inc_index_quote_area.php';
         ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <!-- process area -->
         <div class="process-area pt-80 pb-100">
@@ -607,82 +579,7 @@ $the_page = 1;
         <!-- choose area end -->
 
 
-        <!-- quote area -->
-        <div class="quote-area mb-100">
-            <div class="quote-bg" style="background-image: url(assets/img/quote/01.jpg);"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 ms-auto">
-                        <div class="quote-form">
-                            <div class="quote-header">
-                                <h4>Request A Quote</h4>
-                                <p>It is a long established fact that a reader will by the readable content page when looking at its layout
-                                    will their infancy.
-                                </p>
-                            </div>
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <div class="form-icon">
-                                                <i class="far fa-user-tie"></i>
-                                                <input type="text" class="form-control" placeholder="Name">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <div class="form-icon">
-                                                <i class="far fa-envelope"></i>
-                                                <input type="email" class="form-control" placeholder="Email">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <div class="form-icon">
-                                                <i class="far fa-pencil"></i>
-                                                <input type="text" class="form-control" placeholder="Subject">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <div class="form-icon">
-                                                <i class="far fa-passport"></i>
-                                                <select class="select" name="service">
-                                                    <option value="">Choose Service</option>
-                                                    <option value="1">Student Visa</option>
-                                                    <option value="2">Tourist Visa</option>
-                                                    <option value="3">Commercial Visa</option>
-                                                    <option value="4">Residence Visa</option>
-                                                    <option value="5">Working Visa</option>
-                                                    <option value="6">Migrate Visa</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <div class="form-icon">
-                                                <i class="far fa-comment-lines"></i>
-                                                <textarea name="message" cols="30" rows="3" class="form-control"
-                                                    placeholder="Write Your Message" required></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 mt-2">
-                                        <button type="submit" class="theme-btn"><span
-                                                class="far fa-paper-plane"></span> Request A Quote</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- quote area end -->
+
 
 
 
@@ -810,67 +707,6 @@ $the_page = 1;
         <!-- testimonial-area end -->
 
 
-        <!-- partner-area -->
-        <div class="partner-area py-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 mx-auto">
-                        <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                            <span class="site-title-tagline"><i class="far fa-passport"></i> Our Partners</span>
-                            <h2 class="site-title">Meet With Our <span>Awesome</span> Partners</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-4 justify-content-center wow fadeInUp" data-wow-delay=".25s">
-                    <div class="col-4 col-lg-2">
-                        <div class="partner-img">
-                            <img src="assets/img/partner/01.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-2">
-                        <div class="partner-img">
-                            <img src="assets/img/partner/02.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-2">
-                        <div class="partner-img">
-                            <img src="assets/img/partner/03.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-2">
-                        <div class="partner-img">
-                            <img src="assets/img/partner/04.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-2">
-                        <div class="partner-img">
-                            <img src="assets/img/partner/05.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-2">
-                        <div class="partner-img">
-                            <img src="assets/img/partner/06.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-2">
-                        <div class="partner-img">
-                            <img src="assets/img/partner/04.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-2">
-                        <div class="partner-img">
-                            <img src="assets/img/partner/02.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-2">
-                        <div class="partner-img">
-                            <img src="assets/img/partner/03.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- partner-area end -->
 
 
         <!-- blog-area -->
