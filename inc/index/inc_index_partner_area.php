@@ -1,9 +1,6 @@
-<?php
-if (!isset($the_page)) {
-    include '../common/inc_common_the_page.php';
-} ?>
+
 <!-- partner-area -->
-<div class="partner-area py-100">
+<div class="partner-area py-100" id="partner">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mx-auto">
